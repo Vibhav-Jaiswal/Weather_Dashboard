@@ -13,10 +13,10 @@ const WeatherInfoCard = ({ search, setSearch, city, addFavorite }) => {
           onChange={(event) => setSearch(event.target.value)}
         />
         <button
-          className="text-md glassCard px-6 py-2 hover:scale-105 text-gray-900"
+          className="text-md glassCard px-4 py-2 hover:scale-105 text-gray-900"
           onClick={addFavorite}
         >
-          Add To Favorite
+          Add To Favourite
         </button>
       </div>
 

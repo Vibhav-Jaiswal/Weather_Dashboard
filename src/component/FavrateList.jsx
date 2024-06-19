@@ -4,7 +4,7 @@ const FavrateList = ({ favorites, selectFavorite, removeFavorite }) => {
   return (
     <div className="max-w-4xl mx-auto pt-12">
       <h1 className="text-3xl text-gray-800 text-center font-bold mb-6">
-        Favorite List
+        Favourite List
       </h1>
       <ul className="text-center">
         {favorites.map((fav) => (

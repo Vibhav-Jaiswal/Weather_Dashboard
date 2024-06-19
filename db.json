@@ -33,6 +33,16 @@
       "humidity": 28,
       "sea_level": 995,
       "grnd_level": 972
+    },
+    {
+      "id": "228a",
+      "name": "India",
+      "temp": 21,
+      "feels_like": 20.83,
+      "temp_min": 21,
+      "temp_max": 21,
+      "pressure": 1023,
+      "humidity": 64
     }
   ]
 }
