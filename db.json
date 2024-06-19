@@ -1,16 +1,6 @@
 {
   "favorites": [
     {
-      "id": "48b3",
-      "name": "Delhi",
-      "temp": 38.05,
-      "feels_like": 39.53,
-      "temp_min": 38.05,
-      "temp_max": 38.05,
-      "pressure": 996,
-      "humidity": 30
-    },
-    {
       "id": "0320",
       "name": "Ayodhya",
       "temp": 34.52,

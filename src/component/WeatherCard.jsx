@@ -5,6 +5,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import FavrateList from "./FavrateList";
 import WeatherInfoCard from "./WeatherInfoCard";
+import WeatherForecast from "./WeatherForecast";
 
 const WeatherCard = () => {
   const [city, setCity] = useState(null);
@@ -105,6 +106,8 @@ const WeatherCard = () => {
           city={city}
           addFavorite={addFavorite}
         />
+
+        <WeatherForecast search={search} />
 
         <FavrateList
           favorites={favorites}
